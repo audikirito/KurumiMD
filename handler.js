@@ -741,7 +741,7 @@ export async function participantsUpdate({ id, participants, action }) {
                 .setGuildIcon(ppgc)
                 .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
-                .setBackground("https://telegra.ph/file/7224978928b26db462f10.jpg")
+                .setBackground("https://telegra.ph/file/4b90043328ec4825c0e71.jpg")
                 .toAttachment()
 
               let lea = await new knights.Goodbye()
@@ -750,7 +750,7 @@ export async function participantsUpdate({ id, participants, action }) {
                 .setGuildIcon(ppgc)
                 .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
-                .setBackground("https://telegra.ph/file/7224978928b26db462f10.jpg")
+                .setBackground("https://telegra.ph/file/4b90043328ec4825c0e71.jpg")
                 .toAttachment()
                             
                         // this.sendFile(id, action === 'add' ? wel : lea, pp, 'pp.jpg', text, null, false, { mentions: [user] })
@@ -793,15 +793,15 @@ To turn off this feature, type
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'This command can only be used by _*RenFunix*_',
-        owner: 'This command can only be used by _*RenFunix*_!',
+        rowner: 'This command can only be used by _*OWWNER!1!1!*_',
+        owner: 'This command can only be used by _*Owner Bot*_!',
         mods: 'This command can only be used by _*Moderator*_ !',
         premium: 'This command is only for _*Premium*_ members!',
         group: 'This command can only be used in groups!',
         private: 'This command can only be used in Private Chat!',
         admin: 'This command is only for *Admin* group!',
         botAdmin: 'Make bot as *Admin* to use this command!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar RenFunix.19*',
+        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
         restrict: 'This feature is *disabled*!'
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, { contextInfo: { externalAdReply: {title: global.wm, body: '404 Access denied!', sourceUrl: sgc, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
