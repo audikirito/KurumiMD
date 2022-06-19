@@ -8,7 +8,7 @@ Script WhatsApp Bot Multi Device
 This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother !
 
 <p align="center">
-	<img src="https://telegra.ph/file/1e33fe14e1bd9b1959f46.jpg" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
+	<img src="https://telegra.ph/file/2bfcb9235dfb58bcf3826.jpg" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 <h1 align="center">Kurumi MD</h1>
 
