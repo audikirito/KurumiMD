@@ -4,12 +4,14 @@ import { watchFile, unwatchFile } from 'fs'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['+62 821-4886-4989']
-  ['+1 470-823-5045'],
-  ['+1 727-314-8082'],
+  ['+62 821-4886-4989'],
+  ['+62 821-4886-4989'],
+  ['+62 821-4886-4989'],
+  ['+62 821-4886-4989'],
   ['6282148864989', 'RenFunix', true],
-  ['+1 470-823-5045', 'HutaoMD <BotOnly>', true],
-  ['+1 727-314-8082', 'KurumiMD <Bot Only>', true],
+  ['+62 821-4886-4989', 'RenFunix', true],
+  ['+62 821-4886-4989', 'RenFunix', true],
+  ['+62 821-4886-4989', 'RenFunix', true],
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -39,7 +41,7 @@ global.APIKeys = { // APIKey Here
 }
 global.wm = '                「 Kurumi-MD あ⁩ 」' //Main Watermark
 
-global.wm2 = 'Kurumi-MD'
+global.wm2 = '© RenFunix'
 
 global.wm3 = '⫹⫺ Kurumi-MD'
 
@@ -50,7 +52,7 @@ global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:m
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 `
 
-global.author = '                「 KurumiMD あ⁩ 」'
+global.author = '                「 Kurumi-MD あ⁩ 」'
 
 global.thumbnailUrl = [
   'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
@@ -77,7 +79,7 @@ global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg', 'https://t
 /*============== NOMOR ==============*/
 global.nomorbot = '17273148082'
 global.nomorown = '6282148864989'
-global.namebot = 'KurumiMD'
+global.namebot = 'Kurumi-MD'
 global.nameown = 'RenFunix'
 
 /*=========== FAKE SIZE ===========*/
@@ -108,10 +110,10 @@ global.htjava = '⫹⫺' //hiasan Doang :v
 global.hsquere = '⛶', '❏', '⫹⫺'
 
 // Sticker WM
-global.packname = ''
-global.author = ''
+global.packname = '2022'
+global.author = '© RenFunix'
 
-global.multiplier = 150 // The higher, The harder levelup
+global.multiplier = 100 // The higher, The harder levelup
 
 global.rpg = {
   emoticon(string) {
